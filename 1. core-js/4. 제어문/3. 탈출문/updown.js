@@ -21,7 +21,6 @@
 */
 
 alert('[UP & DOWN 게임 1 ~ 100사이의 숫자를 맞춰보세요]');
-alert(' 5번 안에 맞춰보세요 ! ');
 
 //랜덤 정답데이터
 var secret = Math.floor(Math.random() * 100) + 1;
