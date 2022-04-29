@@ -66,3 +66,14 @@ function sayHello(language='한국어') {
 
 console.log('===========================');
 sayHello();
+
+
+// 매개변수가 없는 함수
+function selectRandomPet() {
+    var pets = ['멍멍이', '야옹이', '짹짹이', '어흥이', '두껍이'];
+    // 0 ~ 4까지의 랜덤정수
+    var rn = Math.floor(Math.random() * pets.length);
+    return pets[rn];
+}
+
+console.log(`선택된 동물: ${selectRandomPet()}`);
