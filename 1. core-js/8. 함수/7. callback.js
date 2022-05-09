@@ -33,7 +33,9 @@ function showNumber(n, cb) {
     }
 }
 // 1 ~ 10까지의 3의 배수 출력
-showNumber(10, x => x % 3 === 0);
+showNumber(10, function(x) { 
+    return x % 3 === 0;
+});
 
 // 1 ~ 100까지의 24의 배수 출력
 showNumber(100, m => m % 24 === 0);
